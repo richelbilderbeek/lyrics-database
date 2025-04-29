@@ -17,7 +17,7 @@ jobs:
     - name: Resolve dependencies
       run: sudo apt-get install python3-setuptools sassc
 
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Move latest database files to be under lyrics.git
       run: |
